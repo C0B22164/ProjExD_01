@@ -8,6 +8,7 @@ def main():
     bg_img = pg.image.load("ex01/fig/pg_bg.jpg")
     
     kk_image = pg.image.load("ex01/fig/3.png")
+    kk_image = pg.transform.flip(kk_image, True, False)
 
     tmr = 0
 
