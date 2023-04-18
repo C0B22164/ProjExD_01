@@ -9,7 +9,7 @@ def main():
     
     kk_image = pg.image.load("ex01/fig/3.png")
     kk_image = pg.transform.flip(kk_image, True, False)
-    kk_image = pg.transform.rotozoom(kk_image, 10, 1.0)
+    kk_lst = [kk_image, pg.transform.rotozoom(kk_image, 10, 1)]
 
     tmr = 0
 
